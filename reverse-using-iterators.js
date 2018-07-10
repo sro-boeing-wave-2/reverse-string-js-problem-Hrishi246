@@ -2,7 +2,7 @@
 const reverse = (str) => {
   let newstring = '';
   let i;
-  for (i = str.length - 1; i >= 0; i--) {
+  for (i = str.length - 1; i >= 0; i -= 1) {
     newstring += str[i];
   }
   return newstring;
